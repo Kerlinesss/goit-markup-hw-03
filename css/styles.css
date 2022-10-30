@@ -67,6 +67,10 @@ ul {
 
 /* Header */
 
+.header-gallery {
+  border-bottom:1px solid #eeeeee;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -81,6 +85,8 @@ ul {
 .header-contacts {
   padding-top: 32px;
   padding-bottom: 32px;
+  margin-left: 32px;
+  margin-right: 32px;
   color: var(--text-color);
 }
 
@@ -120,6 +126,8 @@ ul {
   background-color: var(--title-text-color);
   color: #ffffff;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   text-align: center;
@@ -139,7 +147,10 @@ ul {
 .site-nav .link {
   color: var(--primary-text-color);
   gap: 50px;
-  padding: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: 32px;
+  margin-right: 32px;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -156,12 +167,17 @@ ul {
 
 .features-container {
   display: flex;
+  padding-top: 94px;
+  padding-bottom: 120px;
 }
 
 .features-list {
   display: flex;
-  padding-bottom: 94px;
   gap: 30px;
+}
+
+.features-about {
+  padding-bottom: 94px;
 }
 
 .features-title {
@@ -171,8 +187,6 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 10px;
-  padding-top: 94px;
 }
 
 .features-text {
@@ -188,7 +202,7 @@ ul {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .logos {
   color: var(--accent-color);
@@ -196,7 +210,7 @@ ul {
 /* Team */
 .aboutteam {
   background-color: #f5f4fa;
-  margin-bottom: 95px;
+  padding-bottom: 95px;
 }
 
 .teams {
@@ -265,16 +279,12 @@ address {
   font-style: normal;
 }
 
-.footer-address {
-  padding-bottom: 60px;
-}
 
 .footer {
   background-color: #2f303a;
   text-decoration: none;
   display: block;
 }
-
 .address-footer {
   font-size: 14px;
   line-height: 1.71;
@@ -308,8 +318,13 @@ address {
   letter-spacing: 0.03em;
   color: var(--background-color);
   margin-bottom: 20px;
-  padding-top: 60px;
 }
+
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 /* Gallery */
 
 .gallery {
@@ -320,6 +335,7 @@ address {
   flex-wrap: wrap;
   gap: 30px;
   padding-bottom: 10px;
+  padding-top: 100px;
 }
 
 .gallery-title {
@@ -350,7 +366,7 @@ address {
   justify-content: center;
   display: flex;
   column-gap: 8px;
-  margin-bottom: 50px;
+  padding-top: 50px;
 }
 
 .gallery-button {
